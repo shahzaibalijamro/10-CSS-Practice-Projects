@@ -1,0 +1,91 @@
+:root{
+    --purple: #1D1E4C;
+    --light: #E5E5FD;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 16px solid #1D1E4C;
+    background-color: #E5E5FD;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.container-1{
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+.main-img{
+    width: 30%;
+    border-radius: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.main-name{
+    color: var(--purple);
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main-name-2{
+    color: var(--purple);
+    text-align: right;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-nickname{
+    color: var(--purple);
+    text-align: left;
+    font-size: 35px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main-para{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.biography{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bio-head{
+    text-transform: uppercase;
+    color: var(--purple);
+    text-align: left;
+    font-size: 23px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.achievements-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
