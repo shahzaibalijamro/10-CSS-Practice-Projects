@@ -103,6 +103,15 @@ body{
     font-style: normal;   
 }
 
+
+
+
+
+@media(min-width:1300px){
+    .header{
+        justify-content: space-around;
+    }
+}
 @media(max-width:1100px){
     .main-img{
         width: 40%;
