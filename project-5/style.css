@@ -17,8 +17,17 @@
 .navbar{
     width: 75%;
 }
-
-
+.hero-text-one{
+    background-color: #149f39;
+    padding: 5px 10px;
+    color: white;
+}
+.hero-text-four{
+    background: #ffc066;
+    padding: 10px 15px;
+    color: white;
+    
+}
 
 
 
@@ -57,5 +66,8 @@
     }
     .head-bar{
         font-size: 20px;
+    }
+    .logo-main{
+        height: 60px;
     }
 }
