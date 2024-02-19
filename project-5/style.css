@@ -9,10 +9,15 @@
 .width-80{
     width: 80%;
 }
+.width-80-hero{
+    width: 80%;
+}
 .header{
     box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
     position: sticky;
     top: 0;
+    z-index: 5;
+    background-color: white;
 }
 .navbar{
     width: 75%;
@@ -22,11 +27,21 @@
     padding: 5px 10px;
     color: white;
 }
+.hero-text-three{
+    margin-top: 1.5rem;
+}
+.hero-text-two{
+    margin-top: 1.5rem;
+}
 .hero-text-four{
+    display: inline-block;
+    margin-top: 1rem;
     background: #ffc066;
     padding: 10px 15px;
     color: white;
-    
+}
+.hero-text-section{
+    width: 48%;
 }
 
 
@@ -49,15 +64,36 @@
 
 
 
-
-
-
+@media(max-width:1200px){
+    .width-80-hero{
+        width: 90%;
+    }
+}
 @media(max-width:1000px){
     .navbar{
         width: 85%;
     }
     .head-bar{
         font-size: 25px;
+    }
+    .hero-in{
+        flex-wrap: wrap;
+    }
+    .hero-img{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .hero-text-section{
+        text-align: center;
+        width: 100%;
+    }
+    .hero-text-three{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+    .hero-text-four{
+        margin-top: 1.5rem;
     }
 }
 @media(max-width:700px){
@@ -69,5 +105,21 @@
     }
     .logo-main{
         height: 60px;
+    }
+    .hero-img{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media(max-width:500px){
+    .hero-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media(max-width:400px){
+    .hero-img{
+        width: 85%;
+        margin: 0 auto;
     }
 }
