@@ -9,7 +9,7 @@
 .width-80{
     width: 80%;
 }
-.width-90{
+.width-90-offers{
     width: 90%;
 }
 .width-80-hero{
@@ -56,6 +56,20 @@
 .hero-text-section{
     width: 48%;
 }
+.offers{
+    width: 30%;
+}
+.icons{
+    width: 4rem;
+}
+.offer-section-in{
+    justify-content: space-around;
+}
+.divider{
+    border: 1px solid #ccc;
+    width: 90%;
+    margin: 0 auto;
+}
 
 
 
@@ -72,11 +86,11 @@
 
 
 
-
-
-
-
-
+@media(max-width:1400px){
+    .offer-section-in{
+        justify-content: space-between;
+    }
+}
 @media(max-width:1200px){
     .width-80-hero{
         width: 90%;
@@ -113,6 +127,15 @@
     .hero-text-four{
         margin-top: 1.5rem;
     }
+    .offer-section-in{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 3rem;
+        column-gap: 5rem;
+    }
+    .offers{
+        width: 40%;
+    }
 }
 @media(max-width:700px){
     .navbar{
@@ -130,6 +153,23 @@
     }
     .hero-text-two{
         font-size: 40px;
+    }
+    .width-90-offers{
+        width: 90%;
+    }
+}
+@media(max-width:600px){
+    .offers{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+@media(max-width:500px){
+    .offers{
+        flex-direction: column;
+        text-align: center;
+        row-gap: 1.5rem;
     }
 }
 @media(max-width:500px){
