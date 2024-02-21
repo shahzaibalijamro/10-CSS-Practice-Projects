@@ -10,7 +10,7 @@
     width: 80%;
 }
 .width-90-offers{
-    width: 90%;
+    width: 80%;
 }
 .width-80-hero{
     width: 90%;
@@ -70,13 +70,44 @@
     width: 90%;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
+.offer-card-heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.offer-card-text{
+    margin-bottom: 0;
+}
+.our-menu{
+    background-color: #149f39;
+    padding: 7px 10px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    margin: 0 auto !important;
+}
+.footer{
+    background-color: #fff0db !important;
+}
+.logo-footer{
+    height: 85px;
+}
+.color-gray{
+    color: gray;
+    font-size: 1.17rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.footer-in{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.input-email{
+    font-size: 14px;
+    font-weight: 400;
+}
 
 
 
@@ -157,8 +188,6 @@
     .width-90-offers{
         width: 90%;
     }
-}
-@media(max-width:600px){
     .offers{
         width: 100%;
         margin: 0 auto;
