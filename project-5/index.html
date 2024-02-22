@@ -13,7 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
@@ -35,8 +37,8 @@
     <!-- hero section start -->
     <section class="hero width-80-hero mx-auto mt-5 mb-5">
         <div class="d-flex align-items-center justify-content-around hero-in row-gap-5 column-gap-5">
-            <img class="hero-img" src="./images/hero_image.png" alt="">
-            <div class="hero-text-section">
+            <img class="hero-img animate__animated animate__fadeInLeft" src="./images/hero_image.png" alt="">
+            <div class="hero-text-section animate__animated animate__fadeInRight">
                 <span class="hero-text-one">50% Off on All Products</span>
                 <h1 class="hero-text-two">Enjoy Your Delicious Food</h1>
                 <p class="hero-text-three">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est culpa officia sequi quasi nemo deserunt. Ipsam nesciunt optio autem ratione, officia nam excepturi nostrum eos dolor! Architecto accusamus omnis velit?</p>
@@ -120,9 +122,18 @@
                     <p class="mb-0">Terms & Conditions</p>
                 </div>
             </div>
-            <div class="d-flex flex-column row-gap-3">
-                <h4 class="color-gray">Support</h4>
-                <input class="input-email py-1 ps-4 pe-5" type="email" placeholder="Enter your Email...">
+            <div class="d-flex flex-column subscribe row-gap-3">
+                <h4 class="color-gray">Subscribe</h4>
+                <input class="input-email py-1 ps-5 pe-5" type="email" placeholder="Enter your Email...">
+                <div class="d-flex flex-column row-gap-3">
+                    <h4 class="color-gray">Follow Us</h4>
+                    <div class="d-flex social column-gap-3">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

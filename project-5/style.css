@@ -61,13 +61,18 @@
 }
 .icons{
     width: 4rem;
+    transition: 0.3s ease-in-out;
+}
+.icons:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 .offer-section-in{
     justify-content: space-around;
 }
 .divider{
     border: 1px solid #ccc;
-    width: 90%;
+    width: 82%;
     margin: 0 auto;
 }
 .offer-card-heading{
@@ -101,14 +106,17 @@
     margin-bottom: 0;
 }
 .footer-in{
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 .input-email{
-    font-size: 14px;
+    color: #000000;
+    font-size: 13px;
     font-weight: 400;
 }
-
+.fa{
+    font-size: 30px;
+}
 
 
 
@@ -167,6 +175,32 @@
     .offers{
         width: 40%;
     }
+    .logo-footer{
+        height: 75px;
+    }
+}
+@media(max-width:900px){
+    .logo-footer{
+        height: 65px;
+    }
+}
+@media(max-width:850px){
+    .subscribe{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .input-email{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .footer-in{
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+    .social{
+        justify-content: center;
+    }
 }
 @media(max-width:700px){
     .navbar{
@@ -177,6 +211,12 @@
     }
     .logo-main{
         height: 60px;
+    }
+    .logo-footer{
+        height: 60px;
+    }
+    .color-gray{
+        font-size: 1rem;
     }
     .hero-img{
         width: 70%;
@@ -192,6 +232,27 @@
         width: 100%;
         margin: 0 auto;
         justify-content: center;
+    }
+}
+@media(max-width:580px){
+    .footer-in{
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+    }
+    .logo-footer{
+        width: 170px;
+        height: 70px;
+    }
+    .subscribe{
+        text-align: left;
+    }
+    .input-email{
+        width: 300px;
+        margin: 0;
+    }
+    .social{
+        justify-content: start;
     }
 }
 @media(max-width:500px){
@@ -214,5 +275,15 @@
     }
     .hero-text-two{
         font-size: 30px;
+    }
+    .input-email{
+        width: 250px;
+        margin: 0;
+    }
+}
+@media(max-width:340px){
+    .input-email{
+        width: 200px;
+        margin: 0;
     }
 }
