@@ -1,0 +1,40 @@
+:root{
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-width: 1200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 10px;
+}
+.menu-links-in{
+    margin-left: 30px;
+}
+header{
+    background-color: var(--purple300);
+    color: var(--body);
+    font-family: "Roboto", sans-serif;
+}
+.logo-in{
+    font-size: 32px;
+    font-weight: 600;
+}
+.navbar{
+    padding: 18px 0 !important;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--purple500);
+    border-radius: 5px;
+}
