@@ -59,7 +59,7 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 91vh;
 }
 .hero-text-one{
     font-size: 96px;
@@ -89,15 +89,49 @@ header{
 .music-text-one{
     font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
+.music-button{
+    font-size: 15px;
+    background-color: var(--red600);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    padding: 0.6rem 0.8rem;
+    font-weight: 500;
+}
+.music-button:hover{
+    transform: scale(1.07);
+}
+.ipad-img{
+    margin-top: -346px;
+    top: 360px;
+    position: relative;
+}
+.read-more{
+    margin-top: 430px;
+}
+.read-more-text-one{
+    font-size: 18px;
+    font-weight: bold;
+}
+.read-more-button{
+    font-size: 15px;
+    background-color: var(--purple300);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    padding: 0.6rem 0.8rem;
+    font-weight: 500;
+}
+.read-more-button:hover{
+    transform: scale(1.07);
+}
+.read-more-img{
+    margin-top: 10px;
+}
+.read-more-img-in{
+    transition: 0.3s ease-in;
+}
+.read-more-img-in:hover{
+    transform: scale(1.01);
+}
 
 
 
@@ -119,6 +153,11 @@ header{
         row-gap: 20px;
     }
 }
+@media(max-width:1000px){
+    .ipad-img-in{
+        width: 850px;
+    }
+}
 @media(max-width:900px){
     .hero-text-one{
         font-size: 70px;
@@ -131,6 +170,9 @@ header{
     }
     .hero-in-in{
         row-gap: 17px;
+    }
+    .ipad-img-in{
+        width: 700px;
     }
 }
 @media(max-width:768px){
@@ -160,6 +202,20 @@ header{
         width: 90%;
         font-weight: 300;
     }
+    .ipad-img{
+        margin-top: -247px;
+        top: 253px;
+        position: relative;
+    }
+    .ipad-img-in{
+        width: 580px;
+    }
+    .read-more{
+        margin-top: 320px;
+    }
+    .hero{
+        height: 70vh;
+    }
 }
 @media(max-width:600px){
     .hero-text-one{
@@ -175,7 +231,57 @@ header{
     .hero-in-in{
         row-gap: 15px;
     }
+    .ipad-img{
+        margin-top: -180px;
+        top: 190px;
+        position: relative;
+    }
+    .ipad-img-in{
+        width: 450px;
+    }
+    .read-more{
+        margin-top: 240px;
+    }
 }
-@media(max-width:400px){
-    
+@media(max-width:470px){
+    .ipad-img{
+        margin-top: -135px;
+        top: 135px;
+        position: relative;
+    }
+    .ipad-img-in{
+        width: 330px;
+    }
+    .read-more{
+        margin-top: 175px;
+    }
+    .hero{
+        height: 60vh;
+    }
+}
+@media(max-width:380px){
+    .ipad-img{
+        margin-top: -100px;
+        top: 100px;
+        position: relative;
+    }
+    .ipad-img-in{
+        width: 250px;
+    }
+    .read-more{
+        margin-top: 130px;
+    }
+}
+@media(max-width:280px){
+    .ipad-img{
+        margin-top: -50px;
+        top: 50px;
+        position: relative;
+    }
+    .ipad-img-in{
+        width: 180px;
+    }
+    .read-more{
+        margin-top: 90px;
+    }
 }
