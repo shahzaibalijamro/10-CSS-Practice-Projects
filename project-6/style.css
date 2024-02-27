@@ -26,7 +26,7 @@
 }
 header{
     background-color: var(--purple300);
-    color: var(--body);
+    color: white;
     font-family: "Roboto", sans-serif;
     position: sticky;
     top: 0;
@@ -38,7 +38,7 @@ header{
     font-weight: 600;
 }
 .navbar{
-    padding: 18px 0 !important;
+    padding: 20px 0 !important;
 }
 ::-webkit-scrollbar{
     width: 10px;
@@ -242,6 +242,10 @@ header{
     .read-more{
         margin-top: 240px;
     }
+    .logo-in{
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
 @media(max-width:470px){
     .ipad-img{
@@ -257,6 +261,19 @@ header{
     }
     .hero{
         height: 60vh;
+    }
+    .hero-text-two{
+        width: 90%;
+    }
+    .hero-text-one{
+        font-size: 42px;
+    }
+    .logo-in{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .navbar{
+        padding: 17px 0 !important;
     }
 }
 @media(max-width:380px){
