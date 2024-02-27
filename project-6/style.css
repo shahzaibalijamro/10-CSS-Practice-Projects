@@ -132,7 +132,15 @@ header{
 .read-more-img-in:hover{
     transform: scale(1.01);
 }
-
+.entertainment{
+    width: 100%;
+    background-image: url(./images/video.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 91vh;
+    margin-top: 40px;
+}
 
 
 
@@ -216,6 +224,9 @@ header{
     .hero{
         height: 70vh;
     }
+    .entertainment{
+        height: 70vh;
+    }
 }
 @media(max-width:600px){
     .hero-text-one{
@@ -260,7 +271,7 @@ header{
         margin-top: 175px;
     }
     .hero{
-        height: 60vh;
+        height: 55vh;
     }
     .hero-text-two{
         width: 90%;
