@@ -141,7 +141,10 @@ header{
     height: 91vh;
     margin-top: 40px;
 }
-
+.card-section{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
 
 
 @media(max-width:1200px){
