@@ -144,9 +144,14 @@ header{
 .card-section{
     margin-top: 50px !important;
     margin-bottom: 50px !important;
+    column-gap: 50px;
 }
-
-
+.card-img-out{
+    width: 40%;
+}
+.card-img-text-out{
+    width: 50%;
+}
 @media(max-width:1200px){
     .container-fluid{
         padding: 0 20px !important;
