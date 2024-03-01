@@ -195,7 +195,11 @@ header{
     font-weight: 400;
     margin-bottom: 2px;
 }
-
+.copy-right{
+    background-color: var(--purple300);
+    width: 100%;
+    height: 70px;
+}
 
 
 
@@ -397,6 +401,10 @@ header{
     }
     .footer-column{
         width: 100%;
+    }
+    .footer-in{
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
 }
 @media(max-width:380px){
