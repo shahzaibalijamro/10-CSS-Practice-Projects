@@ -406,6 +406,27 @@ header{
         margin-top: 50px;
         margin-bottom: 20px;
     }
+    .music-text-one{
+        font-weight: 400;
+    }
+    .music-button{
+        font-size: 14px;
+        background-color: var(--red600);
+        transition: 0.3s ease-in;
+        cursor: pointer;
+        padding: 0.5rem 0.7rem;
+        font-weight: 400;
+    }
+    .card-button{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0.5rem 0.7rem;
+    }
+    .read-more-button{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0.5rem 0.7rem;
+    }
 }
 @media(max-width:380px){
     .ipad-img{
