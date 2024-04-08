@@ -53,6 +53,7 @@ header{
 }
 .menu-links-out{
     display: block !important;
+    cursor: pointer;
 }
 .hero{
     background-image: url(./images/hero_image.png);
